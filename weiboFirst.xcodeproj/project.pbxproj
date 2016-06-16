@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2415CF4C1D112DB3005C6B0C /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2415CF4B1D112DB3005C6B0C /* MenuItem.m */; };
+		2415CF501D112F00005C6B0C /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2415CF4E1D112F00005C6B0C /* ButtonViewController.m */; };
+		2415CF511D112F00005C6B0C /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2415CF4F1D112F00005C6B0C /* ButtonViewController.xib */; };
+		2415CF541D1137FF005C6B0C /* MenuItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2415CF531D1137FF005C6B0C /* MenuItemButton.m */; };
 		24BBADF41D0E92BB00E24139 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBADF31D0E92BB00E24139 /* main.m */; };
 		24BBADF71D0E92BB00E24139 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBADF61D0E92BB00E24139 /* AppDelegate.m */; };
 		24BBADFA1D0E92BB00E24139 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBADF91D0E92BB00E24139 /* ViewController.m */; };
 		24BBADFD1D0E92BB00E24139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BBADFB1D0E92BB00E24139 /* Main.storyboard */; };
 		24BBADFF1D0E92BB00E24139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BBADFE1D0E92BB00E24139 /* Assets.xcassets */; };
 		24BBAE021D0E92BB00E24139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BBAE001D0E92BB00E24139 /* LaunchScreen.storyboard */; };
+		24BBAE0B1D0E981C00E24139 /* WecomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BBAE0A1D0E981C00E24139 /* WecomeView.m */; };
+		24BBAE0D1D0E986900E24139 /* WecomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BBAE0C1D0E986900E24139 /* WecomeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2415CF4A1D112DB3005C6B0C /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		2415CF4B1D112DB3005C6B0C /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		2415CF4D1D112F00005C6B0C /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		2415CF4E1D112F00005C6B0C /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		2415CF4F1D112F00005C6B0C /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		2415CF521D1137FF005C6B0C /* MenuItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemButton.h; sourceTree = "<group>"; };
+		2415CF531D1137FF005C6B0C /* MenuItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemButton.m; sourceTree = "<group>"; };
 		24BBADEF1D0E92BB00E24139 /* weiboFirst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weiboFirst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BBADF31D0E92BB00E24139 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		24BBADF51D0E92BB00E24139 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		24BBADFE1D0E92BB00E24139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BBAE011D0E92BB00E24139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24BBAE031D0E92BB00E24139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24BBAE091D0E981C00E24139 /* WecomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WecomeView.h; sourceTree = "<group>"; };
+		24BBAE0A1D0E981C00E24139 /* WecomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WecomeView.m; sourceTree = "<group>"; };
+		24BBAE0C1D0E986900E24139 /* WecomeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WecomeView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +78,16 @@
 				24BBADF61D0E92BB00E24139 /* AppDelegate.m */,
 				24BBADF81D0E92BB00E24139 /* ViewController.h */,
 				24BBADF91D0E92BB00E24139 /* ViewController.m */,
+				24BBAE091D0E981C00E24139 /* WecomeView.h */,
+				24BBAE0A1D0E981C00E24139 /* WecomeView.m */,
+				2415CF4A1D112DB3005C6B0C /* MenuItem.h */,
+				2415CF4B1D112DB3005C6B0C /* MenuItem.m */,
+				2415CF521D1137FF005C6B0C /* MenuItemButton.h */,
+				2415CF531D1137FF005C6B0C /* MenuItemButton.m */,
+				2415CF4D1D112F00005C6B0C /* ButtonViewController.h */,
+				2415CF4E1D112F00005C6B0C /* ButtonViewController.m */,
+				2415CF4F1D112F00005C6B0C /* ButtonViewController.xib */,
+				24BBAE0C1D0E986900E24139 /* WecomeView.xib */,
 				24BBADFB1D0E92BB00E24139 /* Main.storyboard */,
 				24BBADFE1D0E92BB00E24139 /* Assets.xcassets */,
 				24BBAE001D0E92BB00E24139 /* LaunchScreen.storyboard */,
@@ -110,6 +136,7 @@
 				TargetAttributes = {
 					24BBADEE1D0E92BB00E24139 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 779RM9YEFZ;
 					};
 				};
 			};
@@ -137,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24BBAE021D0E92BB00E24139 /* LaunchScreen.storyboard in Resources */,
+				2415CF511D112F00005C6B0C /* ButtonViewController.xib in Resources */,
 				24BBADFF1D0E92BB00E24139 /* Assets.xcassets in Resources */,
+				24BBAE0D1D0E986900E24139 /* WecomeView.xib in Resources */,
 				24BBADFD1D0E92BB00E24139 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,7 +180,11 @@
 			files = (
 				24BBADFA1D0E92BB00E24139 /* ViewController.m in Sources */,
 				24BBADF71D0E92BB00E24139 /* AppDelegate.m in Sources */,
+				2415CF541D1137FF005C6B0C /* MenuItemButton.m in Sources */,
+				24BBAE0B1D0E981C00E24139 /* WecomeView.m in Sources */,
 				24BBADF41D0E92BB00E24139 /* main.m in Sources */,
+				2415CF501D112F00005C6B0C /* ButtonViewController.m in Sources */,
+				2415CF4C1D112DB3005C6B0C /* MenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,10 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = weiboFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.weiboFirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -276,10 +313,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = weiboFirst/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.weiboFirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -302,6 +343,7 @@
 				24BBAE081D0E92BB00E24139 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

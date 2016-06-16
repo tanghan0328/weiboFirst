@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WecomeView.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 1.创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.加载storyboard.创建窗口的跟控制器
+    UIStoryboard *stroyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = [stroyboard instantiateInitialViewController];
+    self.window.rootViewController = vc;
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    // 显示欢迎界面
+    WecomeView *welcomeV = [WecomeView welcomeView];
+    
+    // 注意：一定要给界面设置Frame
+    welcomeV.frame = self.window.bounds;
+    
+    [self.window addSubview:welcomeV];
+    
+    NSLog(@"%@",self.window);
+    
     return YES;
 }
 
